@@ -22,7 +22,7 @@
             <input type="email"  name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             
-            <div class="g-recaptcha" data-sitekey="6Ldjy54UAAAAAI0aZcVzusnfNBDqwY8I0pmI3mfw"></div>
+            <div class="g-recaptcha" data-sitekey="6Lc0FKMUAAAAALBcI2HH9atSTly5hm82rHRuaNwa"></div>
            <input type="Submit"  name="submit" value="Send Message" class="submit-btn">
         </form>
         
@@ -45,8 +45,8 @@
                                
                                
             $to_email= "ruqqiya.batool@elev.ga.lbs.se";
-            $headers= "From: $email-from\r\n";
-            $headers.="Replay_to: $user_email\r\n";
+            $headers= "From: $email_from \r\n";
+            $headers .="Replay-to: $user_email\r\n";
             
             $secretKey= "6Lc0FKMUAAAAAKwUh0TpoJd5heeGSnDMe_n6iHCq";
             $responseKey= $_POST['g-recaptcha-response'];
