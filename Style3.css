@@ -374,7 +374,28 @@ p {
 	text-decoration: none;
 	color: #999;
 } 
-  
+.contact-form input{
+    display: block; 
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact-form textarea{
+   
+    width: 90%;
+    margin: 5px auto;
+    padding : 10px;
+    height: 80px;
+}
+
+.submit-btn{
+    cursor: pointer;
+    width: 150px !important;
+    margin: 18px;
+    
+}
+ 
   
   
 
