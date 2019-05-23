@@ -23,7 +23,7 @@
             <textarea name="message" placeholder="Your Message" required></textarea>
             
             <div class="g-recaptcha" data-sitekey="6Lc0FKMUAAAAALBcI2HH9atSTly5hm82rHRuaNwa"></div>
-           <input type="Submit"  name="submit" value="Send Message" class="submit-btn">
+           <input type="submit"  name="submit" value="Send Message" class="submit-btn">
         </form>
         
 <div class="status">
@@ -50,7 +50,7 @@
             
             $secretKey= "6Lc0FKMUAAAAAKwUh0TpoJd5heeGSnDMe_n6iHCq";
             $responseKey= $_POST['g-recaptcha-response'];
-            $UserIP = $_SERVER['REOMTE_ADDR'];
+            $UserIP = $_SERVER['REMOTE_ADDR'];
             $url= "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
             
             $response= file_get_contents($url);
