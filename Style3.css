@@ -217,7 +217,7 @@ p {
 #showcase .bg-image {
   position: absolute;
   background: #333
-    url(backimg.jpg);
+    url("https://images.pexels.com/photos/434041/pexels-photo-434041.jpeg?cs=srgb&dl=animal-blue-bright-434041.jpg&fm=jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
